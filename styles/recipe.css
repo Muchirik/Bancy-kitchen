@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.upper-section{
+    display: flex;
+    flex-direction: column;
+    color:rgb(195, 129, 6);
+    margin: 20px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-variant-caps:petite-caps;
+    font-size: 22px;
+    
+
+}
+
+
+.lower-section{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding: 15px;
+    justify-content: space-around;
+    align-items:baseline;
+    
+    
+
+}
+
+
+.food-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width:300px;
+    height: 450px;
+    margin: 20px;
+    border: 3px;
+    border-color: rgb(173, 103, 5);
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    
+
+}
+.food-container:hover{
+    cursor:pointer;
+    border-color: rgb(236, 225, 6);
+    transition: border-color 0.5s;
+    box-shadow: 7px 7px rgb(36, 36, 35);
+    
+}
+
+
+.food-image{
+    display:flex;
+    flex: 2;
+    margin-bottom: 4px;
+    
+    
+    
+    
+    
+}
+.bgr{
+    width: 300px;
+    height: 250px;
+    margin: 7px;
+    margin-bottom: 3px;
+    border: 2;
+    border-radius: 12px;
+}
+.image-desc{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 3px;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    padding: 3px;
+    margin: 0px;
+
+}

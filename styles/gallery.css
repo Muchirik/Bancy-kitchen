@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    margin-bottom: 100px;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-container{
+    width: 450px;
+    max-width: 500px;
+    height: auto;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(25, 24, 24);
+    margin: 12px;
+}
+
+.img{
+    width: 400px;
+    max-width: 450px;
+    max-height: 100%;
+
+}

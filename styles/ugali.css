@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.main-section{
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 1fr;
+}
+.upper-section{
+    display: flex;
+    flex-direction: row;
+    color: rgb(203, 117, 6);
+    font-size: 25px;
+    font-variant-caps:petite-caps;
+    
+    }
+.upper-section p{
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+
+.image-section{
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(89, 88, 88);
+
+}
+
+.mboto{
+    width:400px;
+    margin: 3px;
+    padding-left: 50px;
+}
+.left-img-section{
+    display: flex;
+    flex: 1;
+    margin: 2px;
+}
+.right-img-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 21px;
+}
+
+
+    
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+}
+.ugali-ingridients h3 ,.bs-ingridients h3, .ugali-method h3, .bs-method h3{
+    text-decoration: underline;
+
+}
+
+.lower-section{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin:9px;
+}
+.lower-section h5{
+    font-size: 20px;
+}
+.image-tomatoe{
+    width: 300px;
+}

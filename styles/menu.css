@@ -1,0 +1,315 @@
+body{
+    background-color: black;
+    margin: 2px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.upper-section{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    color: rgb(187, 108, 4);
+    font-weight: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Roboto;
+    font-style:italic;
+    font-size: x-large;
+    margin-bottom: 10px;
+    
+}
+
+.middle-house{
+    display: flex;
+    flex-direction: row ;
+    flex: 1;
+    flex-wrap: wrap;
+    font-variant-caps:petite-caps;
+    background-color: black;
+    margin-top: 0px;
+       
+}
+
+
+
+
+
+
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-variant-caps:petite-caps;
+    color: white;
+    margin-right: 10px;
+
+}
+
+    
+
+.burger-image{
+    width: 380px;
+    border: 5px;
+    border-style: solid;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 40px;
+    border-color: rgba(239, 131, 8, 0.709);
+    
+}
+.lower-left-section{
+    color: black;
+    margin-top: 130px;
+
+
+}
+.chicken-div{
+    background-color: rgb(200, 115, 3);
+    text-align: center;
+    padding-left:50px ;
+    width: fit-content;
+    border-right-style:dashed;
+    font-size: 24px;
+    font-weight: 900px;
+}
+
+.combo-text P{
+    font-size: 17px;
+    color: aliceblue;
+    margin-left: 40px;
+    
+}
+
+
+
+
+
+
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: aliceblue;
+    font-variant-caps:petite-caps;
+    margin-right: 10px;
+}
+.upper-middle-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    font-size: 34px;
+    color: rgba(244, 173, 40, 0.919);
+}
+.bancys-flame{
+    width: 400px;
+    margin-top: 0px;
+}
+.lower-upper-middle-section {
+    color: rgb(159, 99, 10);
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+
+}
+.iii{
+    color: aliceblue;
+    margin:0px;
+    font-size: 32px;
+}
+.orange-dots{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.middle-middle-section{
+    
+    border: 3px;
+    border-color: rgb(228, 142, 5);
+    border-style: solid;
+    margin: 4px;
+    margin-top: 30px;
+}
+.inner-middle-middle-section{
+    display: flex;
+    flex-direction: column;
+    border: 3px;
+    border-style: dashed;
+    border-color: aliceblue;
+    margin: 6px;
+    text-align:center;
+
+
+}
+.snacks-tag{
+    color: black;
+    font-size: 30px;
+    font-weight: 900px;
+    background-color: rgb(209, 123, 3);
+    border:6px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: -50px;
+    
+    
+}
+.drinks-text{
+  font-size: 34px; 
+  margin-top: -30px;
+  color: rgb(243, 165, 9); 
+}
+.menu-line{
+    border-color: rgb(217, 146, 4);
+    width: 235px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-variant-caps:petite-caps;
+    background-color: rgb(0, 0, 0);
+    color: rgb(256, 256, 256);
+    margin-left: 12px;
+}
+.upper-right-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+
+
+}
+.sausage{
+    width: 450px;
+}
+.beef{
+    right: 47px;
+    background-color: rgb(188, 116, 1);
+    color: black;
+    margin-left: 230px;
+    padding-left: 0px;
+    font-size: 34px;
+    font-weight: 900px;
+    border-left: 2px;
+    border-left-style: dashed;
+    
+}
+
+.middle-right-section{
+    background-color: black;
+    color: aliceblue;
+}
+
+.lower-right-section{
+    background-color: black;
+    color: aliceblue;
+}
+.fries{
+    width: 450px;
+    margin-top: 22px;
+    margin-right: 5px;
+}
+
+
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wood-div{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 12px;
+}
+
+
+.wood{
+    width: 400px;
+
+}
+
+
+
+
+.lower-house{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+.left-lower-house{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(4, 4, 4);
+    margin: 6px;
+}
+
+.order{
+    margin-left: 70px;
+    margin: 6px;
+}
+.phone-case{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+.phone{
+    width: 40px;
+
+}
+.contact{
+    margin-left: 12px;
+}
+
+.middle-lower-house{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: aliceblue;
+    background-color: black;
+    margin: 6px;
+
+}
+.right-lower-house{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: black;
+    margin: 5px;
+}
+.copyright-icon{
+    margin-top:35px
+}
+.copyright-text{
+    margin-left: 9px;
+    margin-top: 35px;
+}
