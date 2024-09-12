@@ -33,13 +33,6 @@ body{
     margin-top: 0px;
        
 }
-
-
-
-
-
-
-
 .left-section{
     display: flex;
     flex-direction: column;
@@ -49,9 +42,6 @@ body{
     margin-right: 10px;
 
 }
-
-    
-
 .burger-image{
     width: 380px;
     border: 5px;
@@ -84,13 +74,6 @@ body{
     margin-left: 40px;
     
 }
-
-
-
-
-
-
-
 .middle-section{
     display: flex;
     flex-direction: column;
@@ -145,8 +128,6 @@ body{
     border-color: aliceblue;
     margin: 6px;
     text-align:center;
-
-
 }
 .snacks-tag{
     color: black;
@@ -159,8 +140,6 @@ body{
     margin-left: 100px;
     margin-right:100px;
     margin-top: -50px;
-    
-    
 }
 .drinks-text{
   font-size: 34px; 
@@ -172,15 +151,6 @@ body{
     width: 235px;
     margin-bottom: 12px;
 }
-
-
-
-
-
-
-
-
-
 .right-section{
     display: flex;
     flex-direction: column;
@@ -194,11 +164,12 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 12px;
-
-
+    gap: 2px;
 }
 .sausage{
     width: 450px;
+    margin-top: 10px;
+    border-radius: 4px;
 }
 .beef{
     right: 47px;
@@ -216,6 +187,8 @@ body{
 .middle-right-section{
     background-color: black;
     color: aliceblue;
+    margin-top: 80px;
+    margin-left: 40px;
 }
 
 .lower-right-section{
@@ -250,6 +223,7 @@ body{
 
 .wood{
     width: 400px;
+    height: 400px;
 
 }
 
@@ -312,4 +286,15 @@ body{
 .copyright-text{
     margin-left: 9px;
     margin-top: 35px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bottom-text{
+    color: aliceblue;
+    text-align: center;
+
 }
